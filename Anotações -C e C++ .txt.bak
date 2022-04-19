@@ -1,10 +1,4 @@
-Utilizamos:
-d para números INTEIROS
-f para números DECIMAIS
-c para Char
-
 -- Poder utilizar acentos
-#include <locale.h>
 setlocale(LC_ALL"");
 
 // Escrever txto na tela:
@@ -14,5 +8,3 @@ printf ("Texto")
 int a = 5;
 print("%d",a);
 
-// Inserir o valor de uma variável:
-scanf ("%d", a)

@@ -12,10 +12,24 @@ void main() {
 
     // Declarando uma variável:
     int a = 5;
-    int b = 6;
+    float b = 5.5;
     //printf("%d",a);
     //printf("%d",a + b);
     printf ("O valor de A é: %d \n", a);
-    printf ("O valor de B é: %d \n", b);
-    printf ("%d + %d = %d \n", a, b, a+b);
-}
+    printf ("O valor de B é: %f \n", b);
+    printf ("%d + %f = %f \n", a, b, a+b);
+
+    // Escaneando uma variável:
+    printf("Insira um novo valor para a variável A:\n");
+    scanf("%d", &a);
+    printf ("O valor de A mudou para %d \n", a);
+    printf ("%d + %f = %f \n", a, b, a+b);
+
+    //Utilizando floats:
+    printf ("Insira um novo valor para a variável B:\n");
+    scanf ("%f", &b);
+    printf ("O valor de B mudou para %f\n", b);
+    printf ("%d + %f = %f\n", a, b, a+b);
+
+
+
